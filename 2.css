@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+.Background{
+padding: 200px 50px 30px 40px;
+font-size: 30px;
+text-align: center;
+color: white;
+}
+
+*{box-sizing: border-box;
+  margin:0px; 
+  padding:0px;}
+
+.body{
+  font-family: 'Segoe UI';
+  font-weight: 400;
+}
+
+
+
+#nav{
+  font-family:'Permanent Marker', cursive;
+  position:absolute;
+  left: 400px;
+  width:1100px;
+  height:80px;
+  font-size:24px;
+  color:rgb(0, 0, 0);
+  margin:0px auto;
+}
+#nav ul {
+  list-style-type:none; 
+}
+#nav ul li{
+  float:left;  
+  position:relative;
+}
+#nav ul li a{
+  text-align:center;
+  border-right:1px solid #ffffff;
+  padding:20px;
+  display:block;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+#nav ul li ul{
+   display:none; 
+}
+#nav ul li:hover ul {
+  display:block;
+  position: absolute;
+}
+#nav ul li:hover ul li a {
+  display:block;
+  font-size: 10px;
+  background:#12aeef;
+  color:#ffffff;
+  width:200px;
+  text-align:center;
+  border-bottom:1px solid #f2f2f2;
+  border-right:none;
+}
+#nav ul li:hover ul li a:hover{
+  background:#6dc7ec;
+  color:#fff;
+}
+
+#nav{
+    background: rgba(22, 185, 214, 0.568);
+}
+
+.GOLO{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    }
+
+.logo{
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+body{
+  background: rgb(27, 27, 27);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card{
+  background-color: white;
+  width: 220px;
+  margin: 20px;
+  border-radius: 15px 15px;
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover ;
+}
+
+.car-1{
+    background-image: url('hotel1.jpg');
+}
+
+.car-2{
+    background-image: url('hotel2.jpg');
+}
+
+.car-3{
+    background-image: url('hotel3.jpg');
+}
+
+.car-4{
+    background-image: url('hotel4.jpg');
+}
+.car-5{
+    background-image: url('hotel5.jpg');
+}
+.car-6{
+    background-image: url('hotel6.PNG');
+}
+.car-7{
+    background-image: url('tour1.PNG');
+}
+.car-8{
+    background-image: url('tour2.PNG');
+}
+.car-9{
+    background-image: url('tour3.PNG');
+}
+.car-10{
+    background-image: url('1.jpg');
+}
+.car-11{
+    background-image: url('8.jpg');
+}
+.car-12{
+    background-image: url('9.JPG');
+}
+.car-13{
+    background-image: url('10.jpg');
+}
+.car-14{
+    background-image: url('11.jpg');
+}
+.car-15{
+    background-image: url('12.jpg');
+}
+
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px ;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.GOLO:hover{
+    cursor: pointer;
+    transition: all 1s ease ;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+}
+
+.comment-box{
+  top: 2000px;
+  left: 900px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.comment-box h2{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.comment-box input{
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+
+.comment-box input:focus{
+  border: 10px solid white;
+  outline: 0;
+}
+
+.comment-box textarea{
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+
+.comment-box textarea:focus{
+  border: 10px solid white;
+  outline: 0;
+}
+
+.comment-box button{
+  border: 0;
+  padding: 10px 30px;
+  background: #86b0b6;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+}
+
+.comment-box button:hover{
+  background-color: #718a8e;
+}
+
+.footer{
+  padding: 40px 0;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1500px;
+  width:100%;
+  height:200px;   
+}
+
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4d4c4d;
+}
+
+.footer .social a{
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover{
+  opacity: 0.9;
+}
+
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.sulat h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.sulat p{
+    text-align: center;
+    color: white;
+}
+.art{
+    background: url(3.jpg);
+}
+
+.tour h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.arts p{
+    text-align: center;
+    color: white;
+}
+
+.art2{
+    position: absolute;
+    top: 1300px;
+    left: 0;
+}
+
+.hotel{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.iframe{
+   
+}
